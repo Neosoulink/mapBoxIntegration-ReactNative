@@ -7,7 +7,8 @@
  */
 
 import React, { useEffect, useRef } from "react";
-import { StyleSheet, StatusBar, View, Image, Platform, useColorScheme } from "react-native";
+import { StyleSheet, StatusBar, View, Image, Platform, useColorScheme, SafeAreaView } from "react-native";
+import { Colors } from 'react-native/Libraries/NewAppScreen';
 import MapboxGL from "@react-native-mapbox-gl/maps";
 
 MapboxGL.setAccessToken("pk.eyJ1IjoibmVvc291bGluayIsImEiOiJjanlqaWUwczMwM3N3M21veG9xa3YycjgyIn0.gTPnNKwKuuHPTGLI2QqsKA");
